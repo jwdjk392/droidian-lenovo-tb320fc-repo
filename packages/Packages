@@ -1,0 +1,34 @@
+Package: adaptation-lenovo-tb320fc
+Version: 0.0.0+git20261019155803.7291784.main
+Architecture: arm64
+Maintainer: jwdjk392 <jeongwan.bae@outlook.com>
+Installed-Size: 9
+Depends: adaptation-hybris-api32-tablet, adaptation-lenovo-tb320fc-configs (= 0.0.0+git20261019155803.7291784.main), libdroid-hal-lights
+Filename: ./adaptation-lenovo-tb320fc_0.0.0+git20261019155803.7291784.main_arm64.deb
+Size: 2236
+MD5sum: 2b27ddf7c9d23f8e38a9aeb19b90339e
+SHA1: fdfe210562e3f83c924464f211075b53157689a4
+SHA256: 7bba60feee38cf50c987b98b83605a8e8c29573fc0068dc5664a9994124766e5
+Section: metapackages
+Priority: optional
+Description: Community adaptation for lenovo-tb320fc - metapackage
+X-Droidian-Vcs-Revision: 7291784e2c45c297da9a66c13259ba05da626475
+X-Droidian-Vcs-Url: https://github.com/jwdjk392/adaptation-droidian-lenovo-tb320fc.git
+
+Package: adaptation-lenovo-tb320fc-configs
+Source: adaptation-lenovo-tb320fc
+Version: 0.0.0+git20261019155803.7291784.main
+Architecture: arm64
+Maintainer: jwdjk392 <jeongwan.bae@outlook.com>
+Installed-Size: 36
+Filename: ./adaptation-lenovo-tb320fc-configs_0.0.0+git20261019155803.7291784.main_arm64.deb
+Size: 4124
+MD5sum: 458583f4a396a1cd095f60f4c0fcc1aa
+SHA1: c10785e69ce577f66d42f7048c6e6580dc036680
+SHA256: e9295f74adc03b56b8850f64819e534b612c5ffcef0108e2381e2484f6d35555
+Section: metapackages
+Priority: optional
+Description: Community adaptation for lenovo-tb320fc - adaptation configurations
+X-Droidian-Vcs-Revision: 7291784e2c45c297da9a66c13259ba05da626475
+X-Droidian-Vcs-Url: https://github.com/jwdjk392/adaptation-droidian-lenovo-tb320fc.git
+
