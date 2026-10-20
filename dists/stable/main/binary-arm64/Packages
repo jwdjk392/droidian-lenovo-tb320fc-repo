@@ -1,0 +1,155 @@
+Package: adaptation-lenovo-tb320fc
+Version: 0.0.0+git20261019155803.7291784.main
+Architecture: arm64
+Maintainer: jwdjk392 <jeongwan.bae@outlook.com>
+Installed-Size: 9
+Depends: adaptation-hybris-api32-phone, adaptation-lenovo-tb320fc-configs (= 0.0.0+git20261019155803.7291784.main), libdroid-hal-lights
+Filename: packages/adaptation-lenovo-tb320fc_0.0.0+git20261019155803.7291784.main_arm64.deb
+Size: 2232
+MD5sum: 874843b4362578e024a75092500d64c2
+SHA1: 9bd9796efd5b7155bb1a505eb4fd22922e83301d
+SHA256: f87116c7c2472d7bc28e9c61c8a6e50454637f5eefab01b6f67d4a540eb92f39
+Section: metapackages
+Priority: optional
+Description: Community adaptation for lenovo-tb320fc - metapackage
+X-Droidian-Vcs-Revision: 7291784e2c45c297da9a66c13259ba05da626475
+X-Droidian-Vcs-Url: https://github.com/jwdjk392/adaptation-droidian-lenovo-tb320fc.git
+
+Package: adaptation-lenovo-tb320fc-configs
+Source: adaptation-lenovo-tb320fc
+Version: 0.0.0+git20261019155803.7291784.main
+Architecture: arm64
+Maintainer: jwdjk392 <jeongwan.bae@outlook.com>
+Installed-Size: 36
+Filename: packages/adaptation-lenovo-tb320fc-configs_0.0.0+git20261019155803.7291784.main_arm64.deb
+Size: 4124
+MD5sum: 458583f4a396a1cd095f60f4c0fcc1aa
+SHA1: c10785e69ce577f66d42f7048c6e6580dc036680
+SHA256: e9295f74adc03b56b8850f64819e534b612c5ffcef0108e2381e2484f6d35555
+Section: metapackages
+Priority: optional
+Description: Community adaptation for lenovo-tb320fc - adaptation configurations
+X-Droidian-Vcs-Revision: 7291784e2c45c297da9a66c13259ba05da626475
+X-Droidian-Vcs-Url: https://github.com/jwdjk392/adaptation-droidian-lenovo-tb320fc.git
+
+Package: linux-bootimage-5.10.269-lenovo-tb320fc
+Source: linux-android-lenovo-tb320fc
+Version: 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 117665
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-5.10.269-lenovo-tb320fc (= 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main)
+Filename: packages/linux-bootimage-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+Size: 57575976
+MD5sum: 94e78786c2eec33598cacf5029b37206
+SHA1: 3fc5007149f1414099bfdf12477d878010bd8894
+SHA256: ce4052f640a954319f2a7cb00c89ebc17dce89cb5ce0c0831323a652608e9a63
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Legion Tab 2023 - Android Boot Image
+ This package contains the Linux kernel for the Lenovo Legion Tab 2023 device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+X-Droidian-Vcs-Revision: 8c9daab31091c05a97c001b28f7040a687dbef6a
+X-Droidian-Vcs-Url: https://github.com/jwdjk392/y700-droidian-linux
+
+Package: linux-bootimage-lenovo-tb320fc
+Source: linux-android-lenovo-tb320fc
+Version: 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-bootimage-5.10.269-lenovo-tb320fc (= 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main)
+Filename: packages/linux-bootimage-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+Size: 1360
+MD5sum: f5ecdf5e74c8c4252a7c0f27eb428c98
+SHA1: cd50a32edfee66e87806a5e126d88d1f0779beb7
+SHA256: 7bec88ce83d6503227c09b2f4b0eb1496903f46f2bda38b68197c3cd61b34534
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Legion Tab 2023 - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Lenovo Legion Tab 2023.
+X-Droidian-Vcs-Revision: 8c9daab31091c05a97c001b28f7040a687dbef6a
+X-Droidian-Vcs-Url: https://github.com/jwdjk392/y700-droidian-linux
+
+Package: linux-headers-5.10.269-lenovo-tb320fc
+Source: linux-android-lenovo-tb320fc
+Version: 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 58660
+Depends: linux-image-5.10.269-lenovo-tb320fc (= 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main)
+Filename: packages/linux-headers-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+Size: 9412096
+MD5sum: c51db10afce109bcbe748978aa12de85
+SHA1: 0120dea85a9ceb217e7aa924b686cfadd0e33583
+SHA256: c7f0d7e05ca81bf20c5f748d82c2574496f6200585c75f531ce9b7ae7df87d07
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Legion Tab 2023 - Headers
+ This package contains the Linux kernel headers for the Lenovo Legion Tab 2023 device.
+X-Droidian-Vcs-Revision: 8c9daab31091c05a97c001b28f7040a687dbef6a
+X-Droidian-Vcs-Url: https://github.com/jwdjk392/y700-droidian-linux
+
+Package: linux-headers-lenovo-tb320fc
+Source: linux-android-lenovo-tb320fc
+Version: 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-headers-5.10.269-lenovo-tb320fc (= 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main)
+Filename: packages/linux-headers-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+Size: 1348
+MD5sum: aa3a3f149cfdb871d3eb1528afca6960
+SHA1: db482244c9376fc5b80943af561be59dd698c531
+SHA256: bc37390ba10a6bdc8f819d2c8d6752f5fb80db7009f3339c7c3cac332e081b72
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Legion Tab 2023 - Headers (latest)
+ This package depends to the latest kernel headers available for the Lenovo Legion Tab 2023.
+X-Droidian-Vcs-Revision: 8c9daab31091c05a97c001b28f7040a687dbef6a
+X-Droidian-Vcs-Url: https://github.com/jwdjk392/y700-droidian-linux
+
+Package: linux-image-5.10.269-lenovo-tb320fc
+Source: linux-android-lenovo-tb320fc
+Version: 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 47641
+Filename: packages/linux-image-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+Size: 13888640
+MD5sum: 9ebaf7f7f54ad3ba2ad7e1546db07d09
+SHA1: 2eba01638d16830586ba25e2d2418c5208b6707d
+SHA256: 181ef81bc1c4136ab45e90e4772917805bbb0b52f663f17427f168c958d61560
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Legion Tab 2023
+ This package contains the Linux kernel for the Lenovo Legion Tab 2023 device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-5.10.269-lenovo-tb320fc package for a bootimage suitable
+ for Android boot loaders.
+X-Droidian-Vcs-Revision: 8c9daab31091c05a97c001b28f7040a687dbef6a
+X-Droidian-Vcs-Url: https://github.com/jwdjk392/y700-droidian-linux
+
+Package: linux-image-lenovo-tb320fc
+Source: linux-android-lenovo-tb320fc
+Version: 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-image-5.10.269-lenovo-tb320fc (= 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main)
+Filename: packages/linux-image-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+Size: 1344
+MD5sum: 95c4e886d256d58ae800501f8db84143
+SHA1: 231bf94fd2d0a34e8d2d29eff88a31dac07b00aa
+SHA256: 8b2b140bce7c485d3781023e0b7c0aa66c847da9ea150ad61102797170b770f6
+Section: kernel
+Priority: optional
+Description: Linux kernel for Lenovo Legion Tab 2023 (latest)
+ This package depends to the latest kernel image available for the Lenovo Legion Tab 2023.
+X-Droidian-Vcs-Revision: 8c9daab31091c05a97c001b28f7040a687dbef6a
+X-Droidian-Vcs-Url: https://github.com/jwdjk392/y700-droidian-linux
+

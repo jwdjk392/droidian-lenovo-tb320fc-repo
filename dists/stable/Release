@@ -1,0 +1,25 @@
+Origin: https://jwdjk392.github.io/droidian-lenovo-tb320fc-repo
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Tue, 20 Oct 2026 15:24:27 +0000
+MD5Sum:
+ c83f79f6bb5f4d134b98f2ef50e1e95e              227 Release
+ a1d60f6e57c49d034596a3dc56ffb495             7816 main/binary-arm64/Packages
+ 455411e05090167a6bd7e8b291cfd772             1753 main/binary-arm64/Packages.gz
+SHA1:
+ d585df3f7ccfefd5ca1d39539be50a9301ffb896              227 Release
+ 239a88b7919301e6d50bef1d44a2e1caf24495bf             7816 main/binary-arm64/Packages
+ 2f76f31f0206465f89fd40df9f50e8dfe1d76823             1753 main/binary-arm64/Packages.gz
+SHA256:
+ 94a8a27fe1174e39277ef27b7e5d5febc51619c1795b0119f6fc778ceef7548f              227 Release
+ 8e4c0759de3b4647f7874760da3b45987f9a50aef5a27e57004014162e2b3eec             7816 main/binary-arm64/Packages
+ 0511001f5be1697513c26d02771534533622c9474f27306d54e8f0e8bf04c93b             1753 main/binary-arm64/Packages.gz
+SHA512:
+ 5e4259cf1d9377873cb7d7751ad3ba4a86ba4f03b8f9088661101eb0db03faf51f9d87657381a37ad0f054dae314bfaace4a2a176f6d123bbb2bf0ccfd947f9b              227 Release
+ bca501c18069e721c08dfc7d8ab55031b196677fc912f5eac1430ac5681e62e3237ce4d54386c9243052599f9e0125ea78da7c49e25fcf0a9d04cc03a68d51ba             7816 main/binary-arm64/Packages
+ 01b67d2aaae0ba4046db784ee6102b5b9f477d628c1df420828f5300db80faf1c352cfb5b708234d1407357d64c96bbd9c1791755da58ac92d45461a2508b6fe             1753 main/binary-arm64/Packages.gz

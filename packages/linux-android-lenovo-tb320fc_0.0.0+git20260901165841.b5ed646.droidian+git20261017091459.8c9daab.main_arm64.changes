@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Sat, 17 Oct 2026 18:14:59 +0900
+Source: linux-android-lenovo-tb320fc
+Binary: linux-bootimage-5.10.269-lenovo-tb320fc linux-bootimage-lenovo-tb320fc linux-headers-5.10.269-lenovo-tb320fc linux-headers-lenovo-tb320fc linux-image-5.10.269-lenovo-tb320fc linux-image-lenovo-tb320fc
+Architecture: arm64
+Version: 0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main
+Distribution: main
+Urgency: medium
+Maintainer: Droidian porters <info@droidian.org>
+Changed-By: Jeongwan Bae <jeongwan.bae@outlook.com>
+Description:
+ linux-bootimage-5.10.269-lenovo-tb320fc - Linux kernel for Lenovo Legion Tab 2023 - Android Boot Image
+ linux-bootimage-lenovo-tb320fc - Linux kernel for Lenovo Legion Tab 2023 - Android Boot Image  (la
+ linux-headers-5.10.269-lenovo-tb320fc - Linux kernel for Lenovo Legion Tab 2023 - Headers
+ linux-headers-lenovo-tb320fc - Linux kernel for Lenovo Legion Tab 2023 - Headers (latest)
+ linux-image-5.10.269-lenovo-tb320fc - Linux kernel for Lenovo Legion Tab 2023
+ linux-image-lenovo-tb320fc - Linux kernel for Lenovo Legion Tab 2023 (latest)
+Changes:
+ linux-android-lenovo-tb320fc (0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main) main; urgency=medium
+ .
+   * kernel version patch
+Checksums-Sha1:
+ 2f1441a7beba8f9e85a3bbb1a67aafc8de76d710 9522 linux-android-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.buildinfo
+ 3fc5007149f1414099bfdf12477d878010bd8894 57575976 linux-bootimage-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ cd50a32edfee66e87806a5e126d88d1f0779beb7 1360 linux-bootimage-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ 0120dea85a9ceb217e7aa924b686cfadd0e33583 9412096 linux-headers-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ db482244c9376fc5b80943af561be59dd698c531 1348 linux-headers-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ 2eba01638d16830586ba25e2d2418c5208b6707d 13888640 linux-image-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ 231bf94fd2d0a34e8d2d29eff88a31dac07b00aa 1344 linux-image-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+Checksums-Sha256:
+ 35469347e58a68b1224486a3634343a345629681a18b2f139aa73cf30658ccdf 9522 linux-android-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.buildinfo
+ ce4052f640a954319f2a7cb00c89ebc17dce89cb5ce0c0831323a652608e9a63 57575976 linux-bootimage-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ 7bec88ce83d6503227c09b2f4b0eb1496903f46f2bda38b68197c3cd61b34534 1360 linux-bootimage-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ c7f0d7e05ca81bf20c5f748d82c2574496f6200585c75f531ce9b7ae7df87d07 9412096 linux-headers-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ bc37390ba10a6bdc8f819d2c8d6752f5fb80db7009f3339c7c3cac332e081b72 1348 linux-headers-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ 181ef81bc1c4136ab45e90e4772917805bbb0b52f663f17427f168c958d61560 13888640 linux-image-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ 8b2b140bce7c485d3781023e0b7c0aa66c847da9ea150ad61102797170b770f6 1344 linux-image-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+Files:
+ fbf1f2701e95d35bb730cd478b1c991e 9522 kernel optional linux-android-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.buildinfo
+ 94e78786c2eec33598cacf5029b37206 57575976 kernel optional linux-bootimage-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ f5ecdf5e74c8c4252a7c0f27eb428c98 1360 kernel optional linux-bootimage-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ c51db10afce109bcbe748978aa12de85 9412096 kernel optional linux-headers-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ aa3a3f149cfdb871d3eb1528afca6960 1348 kernel optional linux-headers-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ 9ebaf7f7f54ad3ba2ad7e1546db07d09 13888640 kernel optional linux-image-5.10.269-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
+ 95c4e886d256d58ae800501f8db84143 1344 kernel optional linux-image-lenovo-tb320fc_0.0.0+git20260901165841.b5ed646.droidian+git20261017091459.8c9daab.main_arm64.deb
